@@ -11,10 +11,10 @@ namespace api.Repositories.Configurations
             builder.ToTable("Users");
             builder.HasKey(x => x.Id);
 
-            builder.Property(x => x.Id).HasColumnName("id");
+            builder.Property(x => x.Id).HasColumnName("Id");
 
-            builder.Property(x => x.Username).HasColumnName("username");
-            builder.Property(x => x.Password).HasColumnName("password");
+            builder.Property(x => x.Username).HasColumnName("Username");
+            builder.Property(x => x.Password).HasColumnName("Password");
         }
     }
 }
