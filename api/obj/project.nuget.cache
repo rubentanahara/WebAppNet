@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "bulMnm09wX+y7zm242Ep6OcViVD3Wrra6Ul/7Vu8VAX3UkIMWnRQEeiGO2OBjfbwZeTev3asnEAZ0cyr2rbSwg==",
+  "dgSpecHash": "lPxNg42CYmu7ip+N0ByGBOQVBFfzrzABIrawX+/j6mqUu4N8QDkbonLlS18mj8BEOmz0V7Pays9f8jyR7XFgsA==",
   "success": true,
   "projectFilePath": "/Users/rubentanahara/Dev/NET/fsw_net/api/api.csproj",
   "expectedPackageFiles": [
     "/Users/rubentanahara/.nuget/packages/azure.core/1.24.0/azure.core.1.24.0.nupkg.sha512",
     "/Users/rubentanahara/.nuget/packages/azure.identity/1.6.0/azure.identity.1.6.0.nupkg.sha512",
+    "/Users/rubentanahara/.nuget/packages/bcrypt.net-next/4.0.3/bcrypt.net-next.4.0.3.nupkg.sha512",
     "/Users/rubentanahara/.nuget/packages/microsoft.aspnetcore.openapi/7.0.5/microsoft.aspnetcore.openapi.7.0.5.nupkg.sha512",
     "/Users/rubentanahara/.nuget/packages/microsoft.bcl.asyncinterfaces/1.1.1/microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "/Users/rubentanahara/.nuget/packages/microsoft.csharp/4.5.0/microsoft.csharp.4.5.0.nupkg.sha512",

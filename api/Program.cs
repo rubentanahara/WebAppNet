@@ -1,12 +1,20 @@
 using api;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Logging;
 
 WebApplicationBuilder builder = WebApplication.CreateBuilder(args);
 
-Startup startup = new(builder.Configuration);
+ILogger<Startup> logger = builder
+    .Services
+    .BuildServiceProvider()
+    .GetRequiredService<ILogger<Startup>>();
 
-startup.ConfigurationService(builder.Services);
+Startup startup = new(builder.Configuration, logger);
+
+startup.ConfigureServices(builder.Services);
 
 WebApplication app = builder.Build();
 
-startup.ConfigurationApplication(app, app.Environment);
+startup.Configure(app, app.Environment);
+
 app.Run();
